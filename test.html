@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +16,29 @@
     <button id="theme-toggle">
         <i class="fas fa-moon"></i>
     </button>
-    <a href="#section1">Section 1</a>
-    <a href="#section2">Section 2</a>
+    <a href="#section1">charts</a>
+    <a href="#section2">news</a>
   </nav>
   <main>
     <div class="landing">
         
-    </div>
   </main>
+</div>
+<div class="why">
+    <div class="whymore">
+        <div id="why1" class="scroll-text-right">SPEED<h5>6s* *1s after updates</h5></div>
+        <div id="why2"class="scroll-text-right">COST<h5>Average cost per transaction $0.002</h5></div>
+        <div id="why3"class="scroll-text-right">DECENTRALIZATION<h5>3.200 validators</h5></div>
+        <div id="why4"class="scroll-text-right">EFFICIENCY<h5>Carbon neutral</h5></div>
+    </div>
+</div>
   <div class="intro">
     <div id="myText" class="scroll-text">News<h1>ecosystem</h1></div>
     <div id="mySecondText" class="scroll-text">Updates<h1>tecnical stuff, non-technical stuff </h1></div>
     <div id="myThirdText" class="scroll-text-right">Charts<h1>nothing fancy yet</h1></div></div>
 
    </div>
-  <div class="news">
+   <div class="news">
     <div class="today">
         <div class="slider">
             <!-- list Items -->
@@ -44,6 +52,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
                         </p>
+                        <button id="more">Read more</button>
                     </div>
                 </div>
                 <div class="item">
@@ -55,6 +64,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
                         </p>
+                        <button id="more">Read more</button>
                     </div>
                 </div>
                 <div class="item">
@@ -98,13 +108,44 @@
             </div>
         </div>
     </div>
-    
+    </div>
+    <div class="morenews">
+        <a href=""><div class="big">
+            <!-- Content for the big div -->
+            <h2>Big Div</h2>
+            <p>This is the big div content.</p>
+        </div></a>
+        <div class="extraText">
+            <!-- Content for the medium div -->
+            <h2>Todays news</h2>
+            <a href=""><div class="headlines"><p>This is the medium div content.</p></a><img src="encode.jpg" alt=""></div>
+            <a href=""><div class="headlines"><p>This is the medium div content.</p></a><img src="LOGO.svg" alt=""></div>
+            <a href=""><div class="headlines"><p>This is the medium div content.</p></a><img src="LOGO.svg" alt=""></div>
+            <a href=""><div class="headlines"><p>This is the medium div content.</p></a><img src="LOGO.svg" alt=""></div>
+            <a href=""><div class="headlines"><p>This is the medium div content.</p></a><img src="LOGO.svg" alt=""></div>
+        </div>
+        <a href=""><div class="extra">
+            <!-- Content for the first small div -->
+            <h3>NFTS</h3>
+            <p>nfts</p>
+        </div></a>
+        <a href=""><div class="extra">
+            <!-- Content for the second small div -->
+            <h3>AIRDROPS</h3>
+            <p>airdrops</p>
+        </div></a>
+        <a href=""><div class="extra">
+            <!-- Content for the third small div -->
+            <h3>ALPHA</h3>
+            <p>alpha</p>
+        </div></a>
+    </div>
   </div>
   <div class="charts">
     <div id="box" class="box">
         <div class="chart1">
             <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
     <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -136,7 +177,7 @@
               "dateRange": "1M",
               "colorTheme": "dark",
               "isTransparent": true,
-              "autosize": false,
+              "autosize": true,
               "largeChartUrl": ""
             }
               </script>
@@ -272,22 +313,46 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 
     // Scroll function for text visibility
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         document.getElementById("myText").className = "scroll-text visible";
     } else {
         document.getElementById("myText").className = "scroll-text";
     }
 
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
         document.getElementById("mySecondText").className = "scroll-text visible";
     } else {
         document.getElementById("mySecondText").className = "scroll-text";
     }
 
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
         document.getElementById("myThirdText").className = "scroll-text-right visible";
     } else {
         document.getElementById("myThirdText").className = "scroll-text-right";
+    }
+
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("why1").className = "scroll-text-right visible";
+    } else {
+        document.getElementById("why1").className = "scroll-text-right";
+    }
+
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        document.getElementById("why2").className = "scroll-text-right visible";
+    } else {
+        document.getElementById("why2").className = "scroll-text-right";
+    }
+
+    if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+        document.getElementById("why3").className = "scroll-text-right visible";
+    } else {
+        document.getElementById("why3").className = "scroll-text-right";
+    }
+
+    if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+        document.getElementById("why4").className = "scroll-text-right visible";
+    } else {
+        document.getElementById("why4").className = "scroll-text-right";
     }
 }
 
@@ -358,6 +423,13 @@ thumbnails.forEach((thumbnail, index) => {
         showSlider();
     })
 })
+
+let moreButton = document.getElementById('more');
+
+moreButton.addEventListener('click', () => {
+    // Do something when the button is clicked
+})
+
 </script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
