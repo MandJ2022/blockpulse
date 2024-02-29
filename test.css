@@ -7,6 +7,7 @@
 html {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
 }
 
 #navbar {
@@ -72,13 +73,11 @@ html {
 }
 
 body {
-    background-color: #f7f0ff;
     overflow-y: scroll;
     overflow-x: hidden;
     color: var(--text-color);
     background-color: var(--background-color);
     transition: color 0.2s, background-color 0.2s;
-    scroll-behavior: smooth;
 }
 
 .landing {
@@ -192,6 +191,10 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 40px;
+    background-image: url(data.svg);
+    background-size: contain;
+    background-position: center;
+
 }
 
 #myText {
@@ -205,6 +208,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-shadow: 0 0 10px #00000070;
 }
 
 #mySecondText {
@@ -218,6 +222,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-shadow: 0 0 10px #00000070;
 }
 
 #myThirdText {
@@ -231,6 +236,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-shadow: 0 0 10px #00000070;
 }
 
 h1 {
@@ -351,6 +357,11 @@ h1 {
     --background-color: #131722;
 }
 
+[data-theme="light"] {
+    /* Light theme */
+    --background-color: #ffedff;
+}
+
 #theme-toggle {
     background: none;
     border: none;
@@ -400,7 +411,6 @@ h1 {
 
 .slider{
     height: 100vh;
-    margin-top: -50px;
     position: relative;
 }
 .slider .list .item{
@@ -431,7 +441,8 @@ h1 {
     top: 60%;
     width: 500px;
     max-width: 80%;
-    z-index: 1;
+    padding-left: 20px;
+    z-index: 10;
 
 }
 .slider .list .item .content p:nth-child(1){
@@ -453,13 +464,32 @@ h1 {
         opacity: 1;
     }
 }
-.slider .list .item.active p:nth-child(1),
-.slider .list .item.active h2,
-.slider .list .item.active p:nth-child(3){
+.slider .list .item.active .content p:first-of-type {
     transform: translateY(30px);
     filter: blur(20px);
     opacity: 0;
     animation: showContent .5s .7s ease-in-out 1 forwards;
+}
+
+.slider .list .item.active .content h2 {
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .8s ease-in-out 1 forwards; /* Delay increased to .8s */
+}
+
+.slider .list .item.active .content p:last-of-type {
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .9s ease-in-out 1 forwards; /* Delay increased to .9s */
+}
+
+.slider .list .item.active .content #more {
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s 1s ease-in-out 1 forwards; /* Delay increased to 1s */
 }
 .slider .list .item.active h2{
     animation-delay: 1s;
@@ -490,7 +520,7 @@ h1 {
 }
 .thumbnail{
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     z-index: 11;
     display: flex;
     gap: 10px;
@@ -524,20 +554,8 @@ h1 {
     position: absolute;
     inset: auto 10px 10px 10px;
 }
-@media screen and (max-width: 678px) {
-    .thumbnail{
-        justify-content: start;
-    }
-    .slider .list .item .content h2{
-        font-size: 60px;
-    }
-    .arrows{
-        top: 10%;
-    }
-}
 
 p {
-    color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -548,4 +566,187 @@ h2 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+#more {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #7cbded; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+#more:hover {
+    background-color: #ff7bac; 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #7be2ff;
+    box-shadow: 0px 0px 7px 0px #7cbded;
+}
+
+.morenews {
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4vh;
+}
+
+.morenews .extra {
+    height: 200px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(0deg, #fe7bac, #7cbcec);
+    filter: drop-shadow(0px 0px 6px #00000059);
+}
+
+.morenews .extra:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.morenews .extraText {
+    height: 500px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 4vh;
+    border-radius: 4px;
+    transition: 0.5s;
+    flex-direction: column;
+    gap: 15px;
+}
+.morenews .big {
+    height: 500px;
+    width: 950px;
+    TEXT-ALIGN: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    border: 2px solid #999999;
+    border-radius: 4px;
+    background-image: url(dubai.jpg);
+    background-size: contain;
+}
+
+.morenews a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 700px) {
+    .morenews .extra, .morenews .extraText, .morenews .big {
+        width: 100%;
+    }
+}
+
+.extraText H2 {
+    background: -webkit-linear-gradient(180deg, #fb7cad, #7cbded);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.headlines {
+    font-size: 3vh;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.headlines img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.extra h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    color: white;
+    font-size: 4vh;
+}
+
+.extra p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    color: white;
+    font-size: 3vh;
+}
+
+#crypto-price {
+    position: relative;
+    top: 200px;
+    font-family: 'Montserrat';
+    height: 60px;
+    width: 60px;
+    font-size: 3vh;
+}
+
+.why {
+    min-height: 100vh;
+    background-image: url(WHY.svg);
+    background-position: center;
+}
+
+.whymore {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#why1, #why2, #why3, #why4 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    font-size: 3vh;
+    color: #7cbcec;
 }
