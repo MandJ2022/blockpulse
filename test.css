@@ -417,11 +417,12 @@ h1 {
 }
 .slider .list .item .content{
     position: absolute;
-    top: 60%;
+    top: 70%;
     width: 500px;
-    max-width: 80%;
+    max-width: 30%;
     padding-left: 20px;
     z-index: 10;
+    text-align: center;
 
 }
 .slider .list .item .content p:nth-child(1){
