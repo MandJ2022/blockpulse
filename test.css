@@ -427,7 +427,7 @@ h1 {
     letter-spacing: 10px;
 }
 .slider .list .item .content h2{
-    font-size: 100px;
+    font-size: 4vh;
     margin: 0;
 }
 .slider .list .item.active{
@@ -650,6 +650,13 @@ h3 {
 
     .arrows {
         width: 50%;
+    }
+    .slider {
+        height: 700px;
+    }
+
+    .thumbnail {
+        height: 500px;
     }
 }
 
