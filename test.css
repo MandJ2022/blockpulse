@@ -686,6 +686,12 @@ h3 {
     .why, .charts, .core_charts {
         background-position: top !important;
     }
+
+    .slider .list .item .content {
+        top: 60%;
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
 .extraText H2 {
