@@ -117,7 +117,8 @@ body {
     align-items: center;
     background-image: url(defi\ charts.svg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .core_charts {
@@ -128,7 +129,8 @@ body {
     align-items: center;
     background-image: url(core\ charts.svg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -626,7 +628,8 @@ h2 {
     border: 2px solid #999999;
     border-radius: 4px;
     background-image: url(dubai.jpg);
-    background-size: contain;
+    background-size: cover;
+    flex-direction: column;
 }
 
 .morenews a {
