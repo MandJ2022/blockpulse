@@ -710,12 +710,13 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     padding-top: 60px;
+    text-align: center;
 }
 
 #why1, #why2, #why3, #why4 {
     position: relative;
-    font-size: 5vh;
-    font-weight: 700;
+    font-size: 3vh;
+    font-weight: 800;
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
