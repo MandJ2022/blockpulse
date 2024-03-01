@@ -318,6 +318,7 @@ h1 {
 
 .news {
     min-height: 100vh;
+    padding: 20px;
 }
 
 .tradingview-widget-container {
