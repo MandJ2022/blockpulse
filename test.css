@@ -480,7 +480,7 @@ h1 {
 .arrows{
     position: absolute;
     top: 50%;
-    right: 50px;
+    right: 40px;
     z-index: 100;
 }
 .arrows button{
