@@ -582,6 +582,7 @@ h2 {
     justify-content: space-between;
     width: 100%;
     padding: 4vh;
+    flex-direction: column;
 }
 
 .morenews .extra {
@@ -659,6 +660,17 @@ h3 {
 
     .thumbnail {
         height: 500px;
+    }
+    .morenews .extra {
+        height: 100px;
+    }
+
+    .morenews {
+        flex-direction: column;
+    }
+
+    .headlines {
+        flex-wrap: nowrap;
     }
 }
 
