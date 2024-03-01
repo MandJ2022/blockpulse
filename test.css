@@ -672,6 +672,14 @@ h3 {
     .headlines {
         flex-wrap: nowrap;
     }
+    
+    .box, .chart1, .chart2, .chart3, .chart4, .chart5 {
+        height: 200px;
+    }
+
+    .box {
+        align-content: center;
+    }
 }
 
 .extraText H2 {
