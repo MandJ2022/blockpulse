@@ -686,7 +686,6 @@ h3 {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
     align-items: center;
     gap: 15px;
 }
