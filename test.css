@@ -214,11 +214,12 @@ body {
 
 h1 {
     font-size: 5vh;
-    width: 600px;
+    width: 60%;
     color: #ff7bac;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .chart1 {
