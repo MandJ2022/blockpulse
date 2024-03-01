@@ -582,7 +582,7 @@ h2 {
     justify-content: space-between;
     width: 100%;
     padding: 4vh;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .morenews .extra {
