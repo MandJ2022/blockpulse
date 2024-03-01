@@ -644,6 +644,10 @@ h3 {
     .morenews .extra, .morenews .extraText, .morenews .big {
         width: 100%;
     }
+
+    .arrows {
+        width: 50%;
+    }
 }
 
 .extraText H2 {
