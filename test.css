@@ -674,11 +674,15 @@ h3 {
     }
     
     .box, .chart1, .chart2, .chart3, .chart4, .chart5 {
-        height: 200px;
+        height: 180px;
     }
 
     .box {
         align-content: center;
+    }
+
+    .why, .charts, .core_charts {
+        background-position: top !important;
     }
 }
 
