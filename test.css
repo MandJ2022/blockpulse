@@ -396,6 +396,8 @@ h1 {
     overflow: hidden;
     opacity: 0;
     transition: .5s;
+    border-radius: 10px;
+    border: 1px solid #363a45;
 }
 .slider .list .item img{
     width: 100%;
