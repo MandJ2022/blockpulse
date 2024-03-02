@@ -96,7 +96,7 @@ ul {
     gap: 4vh;
     list-style: none;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 li:hover {
