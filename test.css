@@ -838,7 +838,7 @@ h5 {
 .egld {
     position: absolute;
     border-style: solid;
-    border-color: #ff7bac transparent transparent transparent;
+    border-color: #7cbded transparent transparent transparent;
     border-width: 0.1em 0.1em 0 0;
     border-radius: 50%;
 }
@@ -858,11 +858,11 @@ h5 {
 }
 
 .egld::before {
-    top: 0.8000000000000007em;
-    right: 1.6000000000000008em;
+    top: 0.200000000000007em;
+    right: 2.1000000000000005em;
     width: 3em;
     height: 10em;
-    background-image: url(rocket.png);
+    background-image: url(rocket1.png);
     background-size: contain;
     transform: rotate(102deg);
     background-position: center;
