@@ -20,7 +20,7 @@ html {
     position: fixed;
     top: 20%;
     text-align: center;
-    border-radius: 0px 5px 5px 0px
+    border-radius: 0px 5px 5px 0px;
     backdrop-filter: blur(3px);
     z-index: 30;
     font-family: "Montserrat", sans-serif;
