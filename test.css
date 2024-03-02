@@ -19,7 +19,7 @@ html {
     position: fixed;
     text-align: center;
     border-radius: 0% 0% 150% 150%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px) hue-rotate(45deg);
     z-index: 30;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #363a45;
