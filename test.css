@@ -10,66 +10,69 @@ html {
     scroll-behavior: smooth;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #7cbded7d;
-    color: #fff;
-    transition: top 0.3s;
-    height: 30px;
-    backdrop-filter: blur(2px);
-    box-shadow: 0px 2px 4px 0px #00000021;
-    z-index: 1;
-    transition: 0.5s;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 11;
-}
-
-#navbar:hover {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ff7bac70;
-    color: #fff;
-    transition: top 0.3s;
-    height: 50px;
-    backdrop-filter: blur(2px);
-    box-shadow: 0px 2px 4px 0px #00000021;
-    z-index: 1;
-    transition: 0.5s;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 11;
-}
-
-#navbar img {
-    height: 50px;
+.bar {
+    width: 130px;
+    height: 60%;
     position: absolute;
-    left: 0;
-}
-
-#navbar a {
-    color: white;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: none;
-}
-
-#navbar:hover a {
-    color: rgb(136, 195, 255);
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: block;
+    background-color: transparent;
+    transition: 0.5s ease;
+    transform: translateX(-132px);
+    position: fixed;
+    top: 20%;
     text-align: center;
-    flex: 1;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 5px 0px white;
+    backdrop-filter: blur(3px);
+    z-index: 30;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bar a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2vh;
+}
+
+input {
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+
+.toggle {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    z-index: 31;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #7be2ff;
+    top: 48%;
+
+}
+
+input:checked ~ .bar {
+    transform: translate(0);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13vh;
+}
+
+li:hover {
+    color: tomato;
+    background-color: #ffffff;
+}
+
+h6 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 15px;
+    font-size: 3vh;
 }
 
 body {
