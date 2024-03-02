@@ -382,6 +382,8 @@ h1 {
     cursor: pointer;
     order: 2;
     padding-right: 20px;
+    position: absolute;
+    z-index: 30;
 }
 
 .fas.fa-sun {
