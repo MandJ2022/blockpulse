@@ -11,16 +11,15 @@ html {
 }
 
 .bar {
-    width: 130px;
+    width: 80px;
     height: 60%;
     position: absolute;
     background-color: transparent;
     transition: 0.5s ease;
-    transform: translateX(-132px);
+    transform: translateY(-84px);
     position: fixed;
-    top: 20%;
     text-align: center;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur(3px);
     z-index: 30;
     font-family: "Montserrat", sans-serif;
@@ -47,45 +46,41 @@ input {
     z-index: 31;
     cursor: pointer;
     border-radius: 2px;
-    top: 48%;
+    left: 49%;
 }
 
 .toggle .common {
     position: fixed;
-    height: 3px;
-    width: 28px;
+    height: 35px;
+    width: 3px;
     background-color: #eb88ff;
     border-radius: 50px;
     transition: 0.3s ease;
 }
 
 .toggle .top_line {
-    top: 49%;
-    left: 1px;
+    left: 48%;
     background-color: #ff7bac;
 }
 .toggle .middle_line {
-    top: 50%;
-    left: 1px;
+    left: 49%;
     background-color: white;
 }
 .toggle .bottom_line {
-    top: 51%;
-    left: 1px;
+    left: 50%;
     background-color: #7cbded;
 }
 
 input:checked ~ .toggle .top_line {
     transform: rotate(45deg);
-    top: 50%;
+    left: 50%;
 }
 input:checked ~ .toggle .bottom_line {
     transform: rotate(-45deg);
-    top: 50%;
+    left: 50%;
 }
 input:checked ~ .toggle .middle_line {
-    transform: translateX(-20px);
-    top: 50%;
+    transform: translateY(-20px);
     opacity: 0;
 }
 
@@ -96,8 +91,9 @@ input:checked ~ .bar {
 ul {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 12vh;
+    fflex-direction: row;
+    gap: 6vh;
+    list-style: none;
 }
 
 li:hover {
@@ -108,7 +104,7 @@ li:hover {
 h6 {
     color: #ffffff;
     font-weight: 800;
-    padding: 15px;
+    padding: 10px;
     font-size: 3vh;
 }
 
