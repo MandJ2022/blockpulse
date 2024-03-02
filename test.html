@@ -297,22 +297,7 @@
 
 <script>
   
-
-  let prevScrollpos = window.pageYOffset;
-
-window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "-50px"; // Adjust as needed
-    } else {
-        document.getElementById("navbar").style.top = "-50px"; // Adjust as needed
-    }
-    setTimeout(function() {
-        document.getElementById("navbar").style.top = "0";
-    }, 3000); // 3000 milliseconds = 3 seconds
-    prevScrollpos = currentScrollPos;
-
-    // Scroll function for text visibility
+    window.onscroll =function() {
     if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         document.getElementById("myText").className = "scroll-text visible";
     } else {
