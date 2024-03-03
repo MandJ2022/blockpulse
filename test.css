@@ -749,6 +749,7 @@ h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    padding: 10px;
 }
 
 .headlines {
@@ -760,10 +761,15 @@ h3 {
     gap: 15px;
 }
 
+.headlines:hover {
+    background-color: #7cbcec;
+    color: black;
+  }
+
 .headlines img {
     height: 50px;
     width: 50px;
-    border-radius: 100%;
+    border-radius: 10%;
     background-size: cover;
 }
 
