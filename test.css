@@ -904,3 +904,20 @@ h5 {
     justify-content: center;
     align-items: center;
 }
+#extra1 {
+    background-image: url(game.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#extra2 {
+    background-image: url(chute.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#extra3 {
+    background-image: url(lock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
