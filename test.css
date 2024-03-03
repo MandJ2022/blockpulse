@@ -765,7 +765,8 @@ h3 {
     font-optical-sizing: auto;
     font-style: italic;
     color: white;
-    font-size: 4vh;
+    font-size: 3vh;
+    text-shadow: 0 0 5px #13172296;
 }
 
 .extra p {
@@ -879,4 +880,8 @@ h5 {
     border-radius: 0% 10px 0px 5px;
     width: 50%;
     background-image: linear-gradient(319deg, #fe7bac, #7cbcec);
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
