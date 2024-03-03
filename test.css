@@ -908,16 +908,19 @@ h5 {
     background-image: url(game.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #extra2 {
     background-image: url(chute.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #extra3 {
     background-image: url(lock.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
