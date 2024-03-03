@@ -101,8 +101,13 @@ ul {
 }
 
 li:hover {
-    color: tomato;
-    background-color: #ffffff;
+    color: #7cbded;
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+
+li {
+    transition: 0.3s ease;
 }
 
 h6 {
