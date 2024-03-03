@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".2"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="110.3" y1="100.02" x2="339.71" y2="100.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fe7bac"/>
+      <stop offset="1" stop-color="#7cbcec"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-3">
+    <path class="cls-2" d="m301.13,45.42c-2.88-.63-5.83-.9-8.78-.9h-133.44c-4.9,0-9.76.84-14.35,2.54-14.36,5.3-39.17,21.12-33.41,66.46,0,0,4,42,52,42,0,0,27-1,41-24h41s11,19,33,23c0,0,50,10,60-39,0,0,13.15-59.17-37.02-70.1Zm-116.48,57.1h-16.5v16.5s-1,7-8,7c-8,0-9-7-9-7v-16.5h-16.5s-7-1-7-8c0-8,7-9,7-9h16.5v-17s1-7,9-7c7,0,8,7,8,7v17h16.5s7,1,7,9c0,7-7,8-7,8Zm106.5-47c6.63,0,12,5.38,12,12s-5.37,12-12,12-12-5.37-12-12,5.37-12,12-12Zm-23,48c-6.63,0-12-5.37-12-12s5.37-12,12-12,12,5.38,12,12-5.37,12-12,12Zm24,24c-6.63,0-12-5.37-12-12s5.37-12,12-12,12,5.38,12,12-5.37,12-12,12Zm23-24c-6.63,0-12-5.37-12-12s5.37-12,12-12,12,5.38,12,12-5.37,12-12,12Z"/>
+    <path class="cls-1" d="m191.65,94.52c0,7-7,8-7,8h-16.5v16.5s-1,7-8,7c-8,0-9-7-9-7v-16.5h-16.5s-7-1-7-8c0-8,7-9,7-9h16.5v-17s1-7,9-7c7,0,8,7,8,7v17h16.5s7,1,7,9Z"/>
+    <circle class="cls-1" cx="268.15" cy="91.52" r="12"/>
+    <circle class="cls-1" cx="291.15" cy="67.52" r="12"/>
+    <circle class="cls-1" cx="292.15" cy="115.52" r="12"/>
+    <circle class="cls-1" cx="315.15" cy="91.52" r="12"/>
+    <line class="cls-1" x1="151.15" y1="102.52" x2="151.15" y2="102.02"/>
+    <line class="cls-1" x1="168.15" y1="102.52" x2="168.15" y2="102.02"/>
+    <line class="cls-1" x1="151.65" y1="85.52" x2="151.15" y2="85.52"/>
+    <line class="cls-1" x1="151.65" y1="102.52" x2="151.15" y2="102.52"/>
+    <line class="cls-1" x1="168.15" y1="85.52" x2="167.65" y2="85.52"/>
+    <line class="cls-1" x1="168.15" y1="102.52" x2="167.65" y2="102.52"/>
+    <circle class="cls-1" cx="268.15" cy="91.52" r="12"/>
+    <circle class="cls-1" cx="292.15" cy="115.52" r="12"/>
+    <circle class="cls-1" cx="315.15" cy="91.52" r="12"/>
+    <circle class="cls-1" cx="291.15" cy="67.52" r="12"/>
+  </g>
+</svg>
