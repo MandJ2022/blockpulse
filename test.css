@@ -750,6 +750,7 @@ h3 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     padding: 10px;
+    font-size: 5vh;
 }
 
 .headlines {
