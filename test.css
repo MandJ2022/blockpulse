@@ -765,6 +765,7 @@ h3 {
 .headlines:hover {
     background-color: #7cbcec;
     color: black;
+    border-radius: 10% 0% 0% 10%;
   }
 
 .headlines img {
