@@ -903,6 +903,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px -1px 10px #2a2e39;
 }
 #extra1 {
     background-image: url(game.svg);
