@@ -710,7 +710,15 @@ h2 {
     inset: 4px;
     background: #2a2e39;
     border-radius: 10px;
-    
+}
+
+@keyframes bordercool {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .morenews .big {
     height: 500px;
