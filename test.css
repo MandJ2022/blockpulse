@@ -813,6 +813,7 @@ h3 {
     background-color: #7cbcec;
     color: black;
     border-radius: 10px 10px 10px 10px;
+    z-index: 10;
   }
 
 .headlines img {
