@@ -795,6 +795,7 @@ h3 {
     background-clip: text;
     padding: 10px;
     font-size: 5vh;
+    z-index: 10;
 }
 
 .headlines {
@@ -805,6 +806,7 @@ h3 {
     align-items: center;
     gap: 15px;
     padding-right: 10px;
+    z-index: 10;
 }
 
 .headlines:hover {
