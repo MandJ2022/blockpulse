@@ -728,6 +728,7 @@ h3 {
 
     .why, .charts, .core_charts {
         background-position: top !important;
+        background-size: contain;
     }
 
     .slider .list .item .content {
