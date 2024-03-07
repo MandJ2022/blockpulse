@@ -11,13 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <label>
-        <input type="checkbox">
-        <div class="toggle">
-            <span class="top_line common" ></span>
-            <span class="middle_line common" ></span>
-            <span class="bottom_line common" ></span>
-        </div>
+        <input type="checkbox" id="menu-toggle">
+    <div class="toggle" onclick="document.getElementById('menu-toggle').click()">
+        <span class="top_line common"></span>
+        <span class="middle_line common"></span>
+        <span class="bottom_line common"></span>
+    </div>
         <div class="bar">
             
             <ul>
@@ -49,7 +48,6 @@
                 </li>
             </ul>
         </div>
-    </label>
   <main>
     <div class="landing">
         <button id="theme-toggle">
