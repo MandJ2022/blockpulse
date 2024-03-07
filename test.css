@@ -803,6 +803,7 @@ h3 {
     background-image: url(WHY.svg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .whymore {
