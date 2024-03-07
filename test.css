@@ -179,7 +179,7 @@ body {
     align-items: center;
     background-image: url(defi\ charts.svg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -191,7 +191,7 @@ body {
     align-items: center;
     background-image: url(core\ charts.svg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -291,7 +291,7 @@ h1 {
     opacity: 0;
     animation: fade-chart linear forwards;
     animation-timeline: view();
-    animation-range: 200px 400px;
+    animation-range: 200px 600px;
 }
 @keyframes fade-chart {
     to {opacity: 1;}
