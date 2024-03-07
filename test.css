@@ -285,13 +285,14 @@ h1 {
     height: 400px;
     position: relative;
     backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 10px #88c3ff;
+    box-shadow: 0px 0px 5px #88c3ff;
     border-radius: 10px;
     top: 20%;
     opacity: 0;
     animation: fade-chart linear forwards;
     animation-timeline: view();
     animation-range: 200px 600px;
+    margin-bottom: 10px;
 }
 @keyframes fade-chart {
     to {opacity: 1;}
@@ -301,17 +302,18 @@ h1 {
     height: 400px;
     position: relative;
     backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 15px #88c3ff;
+    box-shadow: 0px 0px 5px #88c3ff;
     border-radius: 10px;
     top: 20%;
+    margin-bottom: 10px;
 }
 
 .chart5:hover {
-    box-shadow: 0px 0px 15px #eb88ff;
+    box-shadow: 0px 0px 10px #eb88ff;
 }
 
 .chart1:hover, .chart2:hover, .chart3:hover, .chart4:hover {
-    box-shadow: 0px 0px 15px #eb88ff;
+    box-shadow: 0px 0px 10px #eb88ff;
 }
 
 .news {
