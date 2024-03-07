@@ -280,98 +280,38 @@ h1 {
     text-align: center;
 }
 
-.chart1 {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 10px rgb(136, 195, 255);
-    border-radius: 5px;
-    top: 20%;
-}
-.chart2 {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 10px rgb(136, 195, 255);
-    border-radius: 5px;
-    top: 20%;
-}
-.chart3 {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 10px rgb(136, 195, 255);
-    border-radius: 5px;
-    top: 20%;
-}
-.chart4 {
+.chart1, .chart2, .chart3, .chart4 {
     width: 300px;
     height: 400px;
     position: relative;
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px #88c3ff;
-    border-radius: 5px;
+    border-radius: 10px;
     top: 20%;
+    opacity: 0;
+    animation: fade-chart linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 400px;
 }
-
+@keyframes fade-chart {
+    to {opacity: 1;}
+}
 .chart5 {
     width: 400px;
     height: 400px;
     position: relative;
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 15px #88c3ff;
-    border-radius: 5px;
+    border-radius: 10px;
     top: 20%;
 }
 
 .chart5:hover {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
     box-shadow: 0px 0px 15px #eb88ff;
-    border-radius: 5px;
-    top: 20%;
 }
 
-.chart1:hover {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
+.chart1:hover, .chart2:hover, .chart3:hover, .chart4:hover {
     box-shadow: 0px 0px 15px #eb88ff;
-    border-radius: 5px;
-    top: 20%;
-}
-.chart2:hover {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 15px #eb88ff;
-    border-radius: 5px;
-    top: 20%;
-}
-.chart3:hover {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 15px #eb88ff;
-    border-radius: 5px;
-    top: 20%;
-}
-.chart4:hover {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 0px 15px #eb88ff;
-    border-radius: 5px;
-    top: 20%;
 }
 
 .news {
@@ -447,6 +387,10 @@ h1 {
 .slider{
     height: 100vh;
     position: relative;
+    opacity: 0;
+    animation: fade-chart linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 700px;;
 }
 .slider .list .item{
     position: absolute;
@@ -975,12 +919,12 @@ h5 {
 }
 
 @keyframes fade-in {
-    from {scale: .5; opacity: 0;}
     to { scale: 1.5; opacity: 1;}
 }
 
 #data {
     position: absolute;
-    animation: fade-in linear;
+    animation: fade-in linear forwards;
     animation-timeline: view();
+    scale: .5; opacity: 0;
 }
