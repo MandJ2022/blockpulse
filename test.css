@@ -733,10 +733,30 @@ h3 {
         background-size: contain !important;
     }
 
+    .end {
+        background-size: contain !important;
+    }
+
     .slider .list .item .content {
         top: 60%;
         max-width: 100%;
         text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-row {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #company {
+        flex-direction: column !important;
+        align-items: center !important;
     }
 }
 
