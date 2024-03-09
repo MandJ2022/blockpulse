@@ -758,6 +758,10 @@ h3 {
         flex-direction: column !important;
         align-items: center !important;
     }
+
+    #company p {
+        padding-right: 0 !important;
+    }
 }
 
 .extraText H2 {
@@ -1067,4 +1071,8 @@ footer {
 .social {
     top: -27px;
     position: relative;
+}
+
+#company p {
+    padding-right: 100px;
 }
