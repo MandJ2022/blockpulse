@@ -1005,6 +1005,7 @@ footer {
     margin-bottom: 10px;
     position: relative;
     cursor: pointer;
+    width: 50%;
 }
 
 .footer-row h3::after {
@@ -1040,6 +1041,7 @@ footer {
     margin-bottom: 5px;
     position: relative;
     transition: 0.3s ease;
+    width: 50%;
 }
 
 .footer-row .footer-links a::before {
