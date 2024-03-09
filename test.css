@@ -761,7 +761,7 @@ h3 {
 
     #company p {
         padding-right: 0 !important;
-        width: 0 !important;
+        width: 100% !important;
     }
 }
 
