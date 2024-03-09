@@ -961,7 +961,7 @@ h5 {
 
 .end {
     min-height: 100vh;
-    background-image: url(last.svg);
+    background-image: url(ending.svg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
