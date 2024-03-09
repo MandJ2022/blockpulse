@@ -757,6 +757,7 @@ h3 {
     #company {
         flex-direction: column !important;
         align-items: center !important;
+        width: 100% !important;
     }
 
     #company p {
