@@ -205,8 +205,22 @@ body {
     align-content: space-between;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
+}
+
+.more {
+    position: absolute;
+}
+
+.more a {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
 }
 
 @keyframes slideInFromLeft {
@@ -771,6 +785,11 @@ h3 {
 
     .footer-row h3 {
         width: 100% !important;
+    }
+
+    .more {
+        position: relative !important;
+        top: 50px !important;
     }
 }
 
