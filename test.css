@@ -1109,3 +1109,33 @@ footer {
 #company p {
     padding-right: 100px;
 }
+.bar a::before {
+    content: '';
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    top: 2px;
+    left: -10px;
+    background-color: #7cbcec;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.bar a:hover::before {
+    opacity: 1;
+}
+
+.bar a:hover {
+    transform: translateX(-8px);
+    color: #7cbcec;
+}
+
+.bar a {
+    display: block;
+    text-decoration: none;
+    color: #fd7cad;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+    width: 50%;
+}
