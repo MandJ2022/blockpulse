@@ -766,11 +766,11 @@ h3 {
     }
 
     .footer-row .footer-links a {
-        width: 100%;
+        width: 100% !important;
     }
 
     .footer-row h3 {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
