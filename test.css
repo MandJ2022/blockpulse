@@ -764,6 +764,14 @@ h3 {
         padding-right: 0 !important;
         width: 100% !important;
     }
+
+    .footer-row .footer-links a {
+        width: 100%;
+    }
+
+    .footer-row h3 {
+        width: 100%;
+    }
 }
 
 .extraText H2 {
