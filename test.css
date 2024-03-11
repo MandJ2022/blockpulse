@@ -564,10 +564,10 @@ p {
 }
 
 .big p {
-    disply: none;
+    display: none;
 }
 .big h2 {
-    disply: none;
+    display: none;
 }
 h2 {
     color: white;
