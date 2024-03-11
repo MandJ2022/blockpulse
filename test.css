@@ -429,7 +429,7 @@ h1 {
     left: 0;
     bottom: 0;
     background-image: linear-gradient(
-        to top, #000 40%, transparent
+        to top, #00000026 40%, transparent
     );
 }
 .slider .list .item .content{
