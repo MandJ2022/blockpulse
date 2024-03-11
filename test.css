@@ -811,6 +811,7 @@ h3 {
     gap: 15px;
     padding-right: 10px;
     z-index: 10;
+    width: 80%;
 }
 
 .headlines:hover {
