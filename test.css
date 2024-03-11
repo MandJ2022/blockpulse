@@ -563,6 +563,12 @@ p {
     font-style: normal;
 }
 
+.big p {
+    disply: none;
+}
+.big h2 {
+    disply: none;
+}
 h2 {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -642,7 +648,7 @@ h2 {
     border-radius: 10px;
     transition: 0.5s;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     background: #2a2e39;
     box-shadow: 0px 0px 4px #7dbcec;
     flex-wrap: wrap;
