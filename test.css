@@ -1155,3 +1155,10 @@ footer {
     scale: 1.1;
     transition: 0.3s ease;
 }
+.first {
+    background-color: white;
+    display: block;
+    height: 2px;
+    width: 60%;
+    z-index: 10;
+}
