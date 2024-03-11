@@ -222,6 +222,10 @@ body {
     font-size: 2rem;
 }
 
+.more a:hover {
+    color: #7be2ff;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
