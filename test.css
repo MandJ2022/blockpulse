@@ -1132,7 +1132,7 @@ footer {
 .bar a {
     display: block;
     text-decoration: none;
-    color: #fd7cad;
+    color: inherit;
     margin-bottom: 5px;
     position: relative;
     transition: 0.3s ease;
