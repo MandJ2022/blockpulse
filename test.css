@@ -354,6 +354,10 @@ h1 {
 .news {
     min-height: 100vh;
     padding: 4vh;
+    background-image: url(headlines.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tradingview-widget-container {
