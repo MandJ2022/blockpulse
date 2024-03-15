@@ -849,12 +849,12 @@ h3 {
     }
 
     .footer-row h3::after {
-        left: 50%;
+        left: 50% !important;
         margin-left: -50px;
     }
 
     .footer-row .footer-links a::before {
-        left: 50%;
+        left: 50% !important;
         margin-left: -80px;
     }
 
