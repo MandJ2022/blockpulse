@@ -843,7 +843,7 @@ h3 {
     }
 
     .today {
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     .headlines a {
@@ -865,7 +865,7 @@ h3 {
     }
 
     .news {
-        background-position: left;
+        background-position-x: 1.5%;
     }
 }
 
