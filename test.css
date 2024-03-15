@@ -212,6 +212,10 @@ body {
     position: absolute;
 }
 
+.more-news {
+    padding-top: 20px;
+}
+
 .more a {
     display: flex;
     flex-direction: row-reverse;
@@ -222,7 +226,21 @@ body {
     font-size: 2rem;
 }
 
+.more-news a {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+}
+
 .more a:hover {
+    color: #7cbcec;
+}
+
+.more-news a:hover {
     color: #7cbcec;
 }
 
