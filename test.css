@@ -857,6 +857,10 @@ h3 {
         left: 50%;
         margin-left: -80px;
     }
+
+    .thumbnail .item {
+        width: 80px;
+    }
 }
 
 .extraText H2 {
