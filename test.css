@@ -843,6 +843,10 @@ h3 {
     .today {
         padding: 1rem;
     }
+
+    .headlines a {
+        justify-content: space-between !important;
+    }
 }
 
 .extraText H2 {
