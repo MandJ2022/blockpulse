@@ -234,6 +234,7 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: 2rem;
+    justify-content: center;
 }
 
 .more a:hover {
@@ -837,6 +838,10 @@ h3 {
     .more {
         position: relative !important;
         top: 50px !important;
+    }
+
+    .today {
+        padding: 1rem;
     }
 }
 
