@@ -406,10 +406,7 @@ h1 {
 .slider{
     height: 80vh;
     position: relative;
-    opacity: 0;
-    animation: fade-chart linear forwards;
-    animation-timeline: view();
-    animation-range: 200px 700px;;
+    opacity: 1;
 }
 
 .today {
@@ -658,6 +655,10 @@ h2 {
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
+    animation: fade-chart linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 400px;
+    opacity: 0;
 }
 
 .morenews .extraText::before {
@@ -700,6 +701,10 @@ h2 {
     background-image: url(ash1.jpg);
     background-size: cover;
     flex-direction: column;
+    animation: fade-chart linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 400px;
+    opacity: 0;
 }
 
 .morenews a {
