@@ -901,7 +901,10 @@ h3 {
 
 h5 {
     font-size: 3vh;
-    color: #7cbcec;
+    background: linear-gradient(to right, #7cbded, #ff7bac);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
 }
 
 .container2 {
