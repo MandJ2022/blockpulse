@@ -867,6 +867,12 @@ h3 {
     .news {
         background-position-x: 1.5%;
     }
+    .extra {
+        animation: fade-chart linear forwards;
+        animation-timeline: view();
+        animation-range: 200px 400px;
+        opacity: 0;
+    }
 }
 
 .extraText H2 {
