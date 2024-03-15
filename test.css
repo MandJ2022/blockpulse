@@ -847,6 +847,16 @@ h3 {
     .headlines a {
         justify-content: space-between !important;
     }
+
+    .footer-row h3::after {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .footer-row .footer-links a::before {
+        left: 50%;
+        margin-left: -80px;
+    }
 }
 
 .extraText H2 {
