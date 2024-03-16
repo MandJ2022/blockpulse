@@ -214,6 +214,8 @@ body {
 
 .more-news {
     padding-top: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .more a {
