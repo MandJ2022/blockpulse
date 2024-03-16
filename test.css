@@ -781,8 +781,8 @@ h2 {
 }
 .morenews .big {
     height: 500px;
-    width: 950px;
-    TEXT-ALIGN: center;
+    width: 900px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
