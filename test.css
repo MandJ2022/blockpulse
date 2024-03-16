@@ -224,6 +224,27 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: 2rem;
+    transition: 0.5s;
+}
+.more a::before {
+    content: '';
+    height: 25px;
+    width: 5px;
+    position: absolute;
+    left: -10px;
+    background-color: #ff7bac;
+    transition: 1s ease;
+    opacity: 0;
+    top: 10px;
+}
+
+.more a:hover::before {
+    opacity: 1;
+}
+
+.more a:hover {
+    transform: translateX(-12px);
+    color: #7cbcec;
 }
 
 .more-news a {
@@ -235,13 +256,26 @@ body {
     color: inherit;
     font-size: 2rem;
     justify-content: center;
+    transition: 0.5s;
+}
+.more-news a::before {
+    content: '';
+    height: 25px;
+    width: 5px;
+    position: absolute;
+    left: -10px;
+    background-color: #ff7bac;
+    transition: 1s ease;
+    opacity: 0;
+    top: 10px;
 }
 
-.more a:hover {
-    color: #7cbcec;
+.more-news a:hover::before {
+    opacity: 1;
 }
 
 .more-news a:hover {
+    transform: translateX(-12px);
     color: #7cbcec;
 }
 
