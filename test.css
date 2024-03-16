@@ -463,7 +463,7 @@ h1 {
 }
 .slider .list .item .content{
     position: absolute;
-    top: 55%;
+    top: 60%;
     width: 500px;
     max-width: 25%;
     padding: 20px;
@@ -812,7 +812,7 @@ h3 {
     }
 
     .slider .list .item .content {
-        top: 60%;
+        top: 65%;
         max-width: 100%;
         text-align: center;
     }
