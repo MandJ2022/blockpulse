@@ -225,6 +225,7 @@ body {
     color: inherit;
     font-size: 2rem;
     transition: 0.5s;
+    font-weight: 100;
 }
 .more a::before {
     content: '';
@@ -257,6 +258,7 @@ body {
     font-size: 2rem;
     justify-content: center;
     transition: 0.5s;
+    font-weight: 100;
 }
 .more-news a::before {
     content: '';
@@ -277,6 +279,14 @@ body {
 .more-news a:hover {
     transform: translateX(-12px);
     color: #7cbcec;
+}
+
+.more a ion-icon {
+    margin-top: 3px;
+}
+.more a:hover ion-icon {
+    color: #ff7bac;
+    transition: 1s;
 }
 
 @keyframes slideInFromLeft {
