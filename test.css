@@ -440,7 +440,7 @@ h1 {
     inset: 0 0 0 0;
     overflow: hidden;
     opacity: 0;
-    transition: .5s;
+    transition: 1.5s;
     border-radius: 10px;
     border: 2px solid #363a45;
     box-shadow: 0px 0px 4px #7dbcec;
@@ -469,8 +469,18 @@ h1 {
     padding: 20px;
     z-index: 10;
     text-align: center;
-
+    transition: 1.5s;
 }
+
+.slider .list .item.active .content {
+    backdrop-filter: brightness(0.5) blur(5px);
+    animation: showContent .5s 1s ease-in-out 1 forwards;
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    border-radius: 10px;
+}
+
 .slider .list .item .content p:nth-child(1){
     text-transform: uppercase;
     letter-spacing: 10px;
