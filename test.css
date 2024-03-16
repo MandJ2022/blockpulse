@@ -289,6 +289,14 @@ body {
     transition: 1s;
 }
 
+.more-news a ion-icon {
+    margin-top: 3px;
+}
+.more-news a:hover ion-icon {
+    color: #ff7bac;
+    transition: 1s;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
