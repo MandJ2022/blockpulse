@@ -936,6 +936,10 @@ h3 {
         animation-range: 200px 400px;
         opacity: 0;
     }
+
+    #headlines {
+        height: 500px;
+    }
 }
 
 .extraText H2 {
