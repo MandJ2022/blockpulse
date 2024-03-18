@@ -926,10 +926,6 @@ h3 {
     .thumbnail .item {
         width: 80px;
     }
-
-    .news {
-        background-position-x: 1.5%;
-    }
     .extra {
         animation: fade-chart linear forwards;
         animation-timeline: view();
