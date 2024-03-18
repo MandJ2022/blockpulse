@@ -716,7 +716,7 @@ h2 {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     filter: drop-shadow(0px 0px 6px #00000059);
-    background: #1c1d21;
+    background: #131a22;
     box-shadow: 0px 0px 4px #7dbcec;
 }
 
@@ -738,7 +738,7 @@ h2 {
     transition: 0.5s;
     flex-direction: column;
     gap: 15px;
-    background: #1c1d21;
+    background: #131a22;
     box-shadow: 0px 0px 4px #7dbcec;
     flex-wrap: wrap;
     position: relative;
