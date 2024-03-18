@@ -936,6 +936,7 @@ h3 {
     #headlines {
         height: 500px;
         overflow: hidden;
+        width: 100%;
     }
 }
 
