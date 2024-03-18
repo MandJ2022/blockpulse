@@ -484,6 +484,7 @@ h1 {
     height: 80vh;
     position: relative;
     opacity: 1;
+    top: 30px;
 }
 
 .today {
@@ -1309,4 +1310,37 @@ footer {
     height: 2px;
     width: 60%;
     z-index: 10;
+}
+
+#headlines {
+    position: absolute;
+    left: 0;
+}
+
+.head-left {
+    animation: come-left linear forwards;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 800px;
+    from {opacity: 0;}
+}
+
+.head-right {
+    animation: come-right linear forwards;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 800px;
+    from {opacity: 0;}
+}
+
+@keyframes come-left {
+    from {transform: translate(250px);}
+    to {transform: translate(0);}
+    to{opacity: 1;}
+}
+
+@keyframes come-right {
+    from {transform: translate(-250px);}
+    to {transform: translate(0);}
+    to{opacity: 1;}
 }
