@@ -176,7 +176,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(defi\ charts.svg);
+    background-image: url(defi-charts.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(core\ charts.svg);
+    background-image: url(core-charts.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
