@@ -484,7 +484,10 @@ h1 {
 }
 
 .today {
-    padding: 4rem;
+    padding-top: 4rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
 }
 .slider .list .item{
     position: absolute;
