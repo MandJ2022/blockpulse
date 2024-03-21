@@ -1321,7 +1321,7 @@ footer {
     animation: come-left linear forwards;
     animation-timeline: view();
     animation-range-start: 0px;
-    animation-range-end: 800px;
+    animation-range-end: 700px;
     from {opacity: 0;}
 }
 
@@ -1329,7 +1329,7 @@ footer {
     animation: come-right linear forwards;
     animation-timeline: view();
     animation-range-start: 0px;
-    animation-range-end: 800px;
+    animation-range-end: 700px;
     from {opacity: 0;}
 }
 
