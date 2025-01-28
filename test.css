@@ -176,7 +176,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(defi-charts.svg);
+    background-image: url(defi_charts.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
