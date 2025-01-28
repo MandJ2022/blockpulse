@@ -212,12 +212,6 @@ body {
     position: absolute;
 }
 
-.more-news {
-    padding-top: 60px;
-    display: flex;
-    justify-content: center;
-}
-
 .more a {
     display: flex;
     flex-direction: row-reverse;
@@ -796,11 +790,6 @@ h2 {
     animation-range: 200px 400px;
     opacity: 0;
     box-shadow: 0px 0px 4px #7dbcec;
-}
-
-.morenews a {
-    text-decoration: none;
-    color: inherit;
 }
 
 h3 {
